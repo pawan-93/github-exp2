@@ -1,1 +1,20 @@
-print(6)
+a=7,'p',9
+print(type(a))
+
+
+# try to find out vowel from sentence 
+sentence = "hello, how are you?
+vowels="aeiouAEI0U"
+
+for letter in sentence:
+    if letter in vowels:
+        print(letter)
+
+        sentence = "hello, how are you/"
+
+        vowels = [letter for letter in sentence if letter .lower() in "aeiou"]
+
+        print(vowels)
+
+
+
